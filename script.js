@@ -45,6 +45,7 @@ const pegarValor = () => {
 
   // Adiciona a li à ul
   ulElement.appendChild(liElement)[0];
+  document.getElementById("input-text").value = "";
 };
 
 const deleteImg = () => {
